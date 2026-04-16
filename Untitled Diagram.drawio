@@ -9,25 +9,25 @@
             <mxPoint x="250" y="130.28571428571433" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w0hv5sdkdz5tNvdxrvdk-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;C3 sketch&lt;/b&gt;&lt;div&gt;&lt;b&gt;$$s \in \mathbb{R}^{B \times L \times S}$$&lt;/b&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="w0hv5sdkdz5tNvdxrvdk-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;C3 sketch&lt;/b&gt;&lt;div&gt;&lt;b&gt;$$s \in \mathbb{R}^{B \times L \times S}$$&lt;/b&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="80" y="100" as="geometry" />
         </mxCell>
         <mxCell id="w0hv5sdkdz5tNvdxrvdk-24" edge="1" parent="1" source="w0hv5sdkdz5tNvdxrvdk-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="w0hv5sdkdz5tNvdxrvdk-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="w0hv5sdkdz5tNvdxrvdk-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Gate MLP&lt;/b&gt;&lt;div&gt;&lt;b&gt;$$\ell = \mathrm{MLP}(e)$$&lt;/b&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="w0hv5sdkdz5tNvdxrvdk-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;Gate MLP&lt;/b&gt;&lt;div&gt;&lt;b&gt;$$\ell = \mathrm{MLP}(e)$$&lt;/b&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="646" y="100" as="geometry" />
         </mxCell>
         <mxCell id="w0hv5sdkdz5tNvdxrvdk-22" edge="1" parent="1" source="w0hv5sdkdz5tNvdxrvdk-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="w0hv5sdkdz5tNvdxrvdk-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="w0hv5sdkdz5tNvdxrvdk-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;FIR filterbank&lt;/b&gt;&lt;div&gt;&lt;b&gt;$$\mathrm{lp},\ d_1,\ d_2,\ \mathrm{bp}_1,\ \mathrm{bp}_2$$&lt;/b&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="w0hv5sdkdz5tNvdxrvdk-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;FIR filterbank&lt;/b&gt;&lt;div&gt;&lt;b&gt;$$\mathrm{lp},\ d_1,\ d_2,\ \mathrm{bp}_1,\ \mathrm{bp}_2$$&lt;/b&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="140" x="252" y="100" as="geometry" />
         </mxCell>
         <mxCell id="w0hv5sdkdz5tNvdxrvdk-23" edge="1" parent="1" source="w0hv5sdkdz5tNvdxrvdk-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="w0hv5sdkdz5tNvdxrvdk-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="w0hv5sdkdz5tNvdxrvdk-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Log-energy&lt;/b&gt;&lt;div&gt;&lt;b&gt;$$e = \log\!\left(\mathrm{pooled\ band\ energies}\right)$$&lt;/b&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="w0hv5sdkdz5tNvdxrvdk-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;Log-energy&lt;/b&gt;&lt;div&gt;&lt;b&gt;$$e = \log\!\left(\mathrm{pooled\ band\ energies}\right)$$&lt;/b&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="193" x="427" y="100" as="geometry" />
         </mxCell>
         <mxCell id="w0hv5sdkdz5tNvdxrvdk-58" edge="1" parent="1" source="w0hv5sdkdz5tNvdxrvdk-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
@@ -35,7 +35,7 @@
             <mxPoint x="904.5714285714289" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w0hv5sdkdz5tNvdxrvdk-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Chunkwise gate&lt;/b&gt;&lt;div&gt;&lt;b&gt;$$g_q = \mathrm{softmax}\!\left(\frac{\lambda + b_q}{\tau}\right)$$&lt;/b&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="w0hv5sdkdz5tNvdxrvdk-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;Chunkwise gate&lt;/b&gt;&lt;div&gt;&lt;b&gt;$$g_q = \mathrm{softmax}\!\left(\frac{\lambda + b_q}{\tau}\right)$$&lt;/b&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="200" x="805" y="90" as="geometry" />
         </mxCell>
         <mxCell id="w0hv5sdkdz5tNvdxrvdk-37" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="w0hv5sdkdz5tNvdxrvdk-1">
@@ -56,25 +56,25 @@
         <mxCell id="w0hv5sdkdz5tNvdxrvdk-25" edge="1" parent="1" source="w0hv5sdkdz5tNvdxrvdk-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="w0hv5sdkdz5tNvdxrvdk-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="w0hv5sdkdz5tNvdxrvdk-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Per-channel encode&lt;/b&gt;&lt;div&gt;&lt;b&gt;$$z_{0,c} = \mathrm{Linear}(x_{:,c,:})$$&lt;/b&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="w0hv5sdkdz5tNvdxrvdk-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;Per-channel encode&lt;/b&gt;&lt;div&gt;&lt;b&gt;$$z_{0,c} = \mathrm{Linear}(x_{:,c,:})$$&lt;/b&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="70" y="290" as="geometry" />
         </mxCell>
         <mxCell id="w0hv5sdkdz5tNvdxrvdk-30" edge="1" parent="1" source="w0hv5sdkdz5tNvdxrvdk-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="w0hv5sdkdz5tNvdxrvdk-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="w0hv5sdkdz5tNvdxrvdk-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Decoder bank&lt;/b&gt;&lt;div&gt;&lt;b&gt;$$\mathrm{Dec}_m(z) = w_m^\top z + b_m$$&lt;/b&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="w0hv5sdkdz5tNvdxrvdk-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;Decoder bank&lt;/b&gt;&lt;div&gt;&lt;b&gt;$$\mathrm{Dec}_m(z) = w_m^\top z + b_m$$&lt;/b&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="140" x="610" y="276" as="geometry" />
         </mxCell>
         <mxCell id="w0hv5sdkdz5tNvdxrvdk-26" edge="1" parent="1" source="w0hv5sdkdz5tNvdxrvdk-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="w0hv5sdkdz5tNvdxrvdk-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="w0hv5sdkdz5tNvdxrvdk-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Initial latent&lt;/b&gt;&lt;div&gt;&lt;b&gt;$$z_0 \in \mathbb{R}^{B \times C \times K}$$&lt;/b&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="w0hv5sdkdz5tNvdxrvdk-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;Initial latent&lt;/b&gt;&lt;div&gt;&lt;b&gt;$$z_0 \in \mathbb{R}^{B \times C \times K}$$&lt;/b&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="250" y="290" as="geometry" />
         </mxCell>
         <mxCell id="w0hv5sdkdz5tNvdxrvdk-27" edge="1" parent="1" source="w0hv5sdkdz5tNvdxrvdk-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="w0hv5sdkdz5tNvdxrvdk-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="w0hv5sdkdz5tNvdxrvdk-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Stable operator bank&lt;/b&gt;&lt;div&gt;&lt;b&gt;$$A_m(h) = r^h$$&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;$$[\cos(h\theta),\ \sin(h\theta)]$$&lt;/b&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="w0hv5sdkdz5tNvdxrvdk-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;Stable operator bank&lt;/b&gt;&lt;div&gt;&lt;b&gt;$$A_m(h) = r^h$$&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;$$[\cos(h\theta),\ \sin(h\theta)]$$&lt;/b&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="100" width="140" x="427" y="271" as="geometry" />
         </mxCell>
         <mxCell id="w0hv5sdkdz5tNvdxrvdk-57" edge="1" parent="1" source="w0hv5sdkdz5tNvdxrvdk-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
@@ -82,7 +82,7 @@
             <mxPoint x="1070" y="321.7142857142858" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w0hv5sdkdz5tNvdxrvdk-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Residual rollout&lt;/b&gt;&lt;div&gt;&lt;b&gt;$$\hat{y}_{h,c}^{\mathrm{res}} = \sum_{m=1}^{M} g_{q(h),m}\, s_{c,m}\, d_{m,c}(h)$$&lt;/b&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="w0hv5sdkdz5tNvdxrvdk-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;Residual rollout&lt;/b&gt;&lt;div&gt;&lt;b&gt;$$\hat{y}_{h,c}^{\mathrm{res}} = \sum_{m=1}^{M} g_{q(h),m}\, s_{c,m}\, d_{m,c}(h)$$&lt;/b&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="249" x="791" y="281" as="geometry" />
         </mxCell>
         <mxCell id="w0hv5sdkdz5tNvdxrvdk-48" edge="1" parent="1" source="w0hv5sdkdz5tNvdxrvdk-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
@@ -90,13 +90,13 @@
             <mxPoint x="360" y="481.7142857142858" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w0hv5sdkdz5tNvdxrvdk-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Trend extrapolator&lt;/b&gt;&lt;div&gt;&lt;b&gt;last value + slope + horizon affine&lt;/b&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="w0hv5sdkdz5tNvdxrvdk-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;Trend extrapolator&lt;/b&gt;&lt;div&gt;&lt;b&gt;last value + slope + horizon affine&lt;/b&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="80" y="452" as="geometry" />
         </mxCell>
         <mxCell id="w0hv5sdkdz5tNvdxrvdk-34" edge="1" parent="1" source="w0hv5sdkdz5tNvdxrvdk-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="w0hv5sdkdz5tNvdxrvdk-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="w0hv5sdkdz5tNvdxrvdk-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Seasonal blend&lt;/b&gt;&lt;div&gt;&lt;b&gt;global logits&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;$$\hat{y}^{\mathrm{base}} = \mathrm{Blend}(y^{\mathrm{day}},\, y^{\mathrm{week}},\, y^{\mathrm{trend}})$$&lt;/b&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="w0hv5sdkdz5tNvdxrvdk-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;Seasonal blend&lt;/b&gt;&lt;div&gt;&lt;b&gt;global logits&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;$$\hat{y}^{\mathrm{base}} = \mathrm{Blend}(y^{\mathrm{day}},\, y^{\mathrm{week}},\, y^{\mathrm{trend}})$$&lt;/b&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="230" x="520" y="443" as="geometry" />
         </mxCell>
         <mxCell id="w0hv5sdkdz5tNvdxrvdk-49" edge="1" parent="1" source="w0hv5sdkdz5tNvdxrvdk-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
@@ -104,16 +104,16 @@
             <mxPoint x="360" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w0hv5sdkdz5tNvdxrvdk-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Daily copy&lt;/b&gt;&lt;div&gt;&lt;b&gt;past-only lag reuse&lt;/b&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="w0hv5sdkdz5tNvdxrvdk-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;Daily copy&lt;/b&gt;&lt;div&gt;&lt;b&gt;past-only lag reuse&lt;/b&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="80" y="533" as="geometry" />
         </mxCell>
         <mxCell id="w0hv5sdkdz5tNvdxrvdk-47" edge="1" parent="1" source="w0hv5sdkdz5tNvdxrvdk-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="w0hv5sdkdz5tNvdxrvdk-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="w0hv5sdkdz5tNvdxrvdk-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Weekly copy&lt;/b&gt;&lt;div&gt;&lt;b&gt;past-only lag reuse&amp;nbsp;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="w0hv5sdkdz5tNvdxrvdk-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;Weekly copy&lt;/b&gt;&lt;div&gt;&lt;b&gt;past-only lag reuse&amp;nbsp;&lt;/b&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="80" y="371" as="geometry" />
         </mxCell>
-        <mxCell id="w0hv5sdkdz5tNvdxrvdk-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Baseline output&lt;/b&gt;" vertex="1">
+        <mxCell id="w0hv5sdkdz5tNvdxrvdk-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;Baseline output&lt;/b&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="856" y="458" as="geometry" />
         </mxCell>
         <mxCell id="w0hv5sdkdz5tNvdxrvdk-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Final forecast&lt;/b&gt;&lt;div&gt;&lt;b&gt;$$\hat{y} = \hat{y}^{base} + \hat{y}^{res}$$&lt;/b&gt;&lt;div&gt;&lt;b&gt;$$\hat{y} \in \mathbb{R}^{B \times H \times C}$$&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
@@ -122,7 +122,7 @@
         <mxCell id="w0hv5sdkdz5tNvdxrvdk-42" edge="1" parent="1" source="w0hv5sdkdz5tNvdxrvdk-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="w0hv5sdkdz5tNvdxrvdk-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="w0hv5sdkdz5tNvdxrvdk-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Input context&lt;/b&gt;&lt;div&gt;&lt;b&gt;$$x \in \mathbb{R}^{B \times L \times C}$$&lt;/b&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="w0hv5sdkdz5tNvdxrvdk-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;b&gt;Input context&lt;/b&gt;&lt;div&gt;&lt;b&gt;$$x \in \mathbb{R}^{B \times L \times C}$$&lt;/b&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="-280" y="291" as="geometry" />
         </mxCell>
         <mxCell id="w0hv5sdkdz5tNvdxrvdk-45" edge="1" parent="1" source="w0hv5sdkdz5tNvdxrvdk-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="w0hv5sdkdz5tNvdxrvdk-17">
@@ -144,13 +144,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="w0hv5sdkdz5tNvdxrvdk-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;RevIN&lt;/b&gt;" vertex="1">
+        <mxCell id="w0hv5sdkdz5tNvdxrvdk-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;b&gt;RevIN&lt;/b&gt;" vertex="1">
           <mxGeometry height="40" width="120" x="-115" y="301" as="geometry" />
         </mxCell>
         <mxCell id="w0hv5sdkdz5tNvdxrvdk-63" edge="1" parent="1" source="w0hv5sdkdz5tNvdxrvdk-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="w0hv5sdkdz5tNvdxrvdk-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="w0hv5sdkdz5tNvdxrvdk-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Channel Low-Rank Modulator&lt;/b&gt;&lt;div&gt;&lt;b&gt;$$s_{c,m} = 1 + \zeta \tanh(\cdot)$$&lt;/b&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="w0hv5sdkdz5tNvdxrvdk-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;b&gt;Channel Low-Rank Modulator&lt;/b&gt;&lt;div&gt;&lt;b&gt;$$s_{c,m} = 1 + \zeta \tanh(\cdot)$$&lt;/b&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="133" x="447" y="180" as="geometry" />
         </mxCell>
         <mxCell id="w0hv5sdkdz5tNvdxrvdk-60" edge="1" parent="1" source="w0hv5sdkdz5tNvdxrvdk-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="w0hv5sdkdz5tNvdxrvdk-59">
